@@ -1,0 +1,24 @@
+@media only sreen and (max-width: 440px) {
+
+    .parent_container .container{
+        max-width: 440px;
+        width: 100%;
+        padding: 0 10px;
+        border: 2px solid red;
+    }
+
+    header .header_warpper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .header_warpper .nav_wrap {
+        display: none;
+    }
+
+    .banner .title h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
