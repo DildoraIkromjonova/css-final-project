@@ -172,7 +172,9 @@ button:active {
     position: relative;
 }
 
-.banner .sub_line {
+.banner .sub_line,
+.container .sub_line,
+.title_description .sub_line{
     position: absolute;
     top: 33px;
     right: -126px;
@@ -294,10 +296,6 @@ button:active {
     top: 74px;
 }
 
-.populars {
-    padding: 150px;
-}
-
 
 .populars h1 {
     font-weight: 600;
@@ -315,7 +313,7 @@ button:active {
     position: relative;
 }
 
-.populars .items .right_btn_clicked {
+.populars .items .icon_btn{
     position: absolute;
     right: -120px;
     top: 75px;
